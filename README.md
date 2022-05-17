@@ -5,8 +5,8 @@ For this project, I have trained a model with just 10-15 images for each family 
 
 
 <img width="1046" alt="Screenshot 2022-05-17 at 2 47 28 PM" src="https://user-images.githubusercontent.com/41720688/168780102-487c7528-d401-4058-83e3-21adde1cd993.png">
-![IMG_2291](https://user-images.githubusercontent.com/41720688/168781123-d295e81c-ef6d-4df3-a577-195dff2e7c5f.PNG)
-![Uploading IMG_2291.PNG…]()
-![IMG_2290](https://user-images.githubusercontent.com/41720688/168781162-379554dc-914d-46ad-81f9-8effde44ce95.PNG)
-![IMG_2289](https://user-images.githubusercontent.com/41720688/168781177-0a4e4924-2fe1-4945-b604-ab3627485b86.PNG)
-![IMG_2287](https://user-images.githubusercontent.com/41720688/168781187-fe106fba-b6a2-4851-924a-39913dee45da.PNG)
+
+![IMG_2291](https://user-images.githubusercontent.com/41720688/168781409-f43be00a-3847-444a-959c-5b24a742aa70.PNG)
+![IMG_2290](https://user-images.githubusercontent.com/41720688/168781437-79051e70-a3e4-4cdb-883b-d97e4e506ba3.PNG)
+![IMG_2289](https://user-images.githubusercontent.com/41720688/168781440-bc5867e7-fa7c-4323-8d3c-c595f6ac8bc1.PNG)
+![IMG_2287](https://user-images.githubusercontent.com/41720688/168781450-4eab040d-79c4-45c0-b1e1-e58c7fe1e256.PNG)
