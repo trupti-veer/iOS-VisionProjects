@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C39AE8282BB24900C1135E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39AE7282BB24900C1135E /* AppDelegate.swift */; };
+		84C39AEA282BB24900C1135E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39AE9282BB24900C1135E /* SceneDelegate.swift */; };
+		84C39AEC282BB24900C1135E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39AEB282BB24900C1135E /* ViewController.swift */; };
+		84C39AEF282BB24900C1135E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C39AED282BB24900C1135E /* Main.storyboard */; };
+		84C39AF1282BB24B00C1135E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C39AF0282BB24B00C1135E /* Assets.xcassets */; };
+		84C39AF4282BB24B00C1135E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C39AF2282BB24B00C1135E /* LaunchScreen.storyboard */; };
+		84C39AFF282BB24B00C1135E /* BirdIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39AFE282BB24B00C1135E /* BirdIdentifierTests.swift */; };
+		84C39B09282BB24B00C1135E /* BirdIdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B08282BB24B00C1135E /* BirdIdentifierUITests.swift */; };
+		84C39B0B282BB24B00C1135E /* BirdIdentifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B0A282BB24B00C1135E /* BirdIdentifierUITestsLaunchTests.swift */; };
+		84C39B21282BB2FA00C1135E /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B1F282BB2FA00C1135E /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		84C39B22282BB2FA00C1135E /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B20282BB2FA00C1135E /* VNClassificationObservation+confidenceString.swift */; };
+		84C39B28282BB37B00C1135E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B25282BB37B00C1135E /* MainViewController.swift */; };
+		84C39B29282BB37B00C1135E /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B26282BB37B00C1135E /* MainViewController+PhotoPicker.swift */; };
+		84C39B2A282BB37B00C1135E /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B27282BB37B00C1135E /* MainViewController+CameraPicker.swift */; };
+		84C39B2C282BB38500C1135E /* BirdClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B2B282BB38500C1135E /* BirdClassifier.mlmodel */; };
+		84C39B2E282BB3E200C1135E /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39B2D282BB3E200C1135E /* ImagePredictor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C39AFB282BB24B00C1135E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C39ADC282BB24900C1135E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C39AE3282BB24900C1135E;
+			remoteInfo = BirdIdentifier;
+		};
+		84C39B05282BB24B00C1135E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C39ADC282BB24900C1135E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C39AE3282BB24900C1135E;
+			remoteInfo = BirdIdentifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C39AE4282BB24900C1135E /* BirdIdentifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdIdentifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C39AE7282BB24900C1135E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C39AE9282BB24900C1135E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84C39AEB282BB24900C1135E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C39AEE282BB24900C1135E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C39AF0282BB24B00C1135E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C39AF3282BB24B00C1135E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C39AF5282BB24B00C1135E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C39AFA282BB24B00C1135E /* BirdIdentifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdIdentifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C39AFE282BB24B00C1135E /* BirdIdentifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdIdentifierTests.swift; sourceTree = "<group>"; };
+		84C39B04282BB24B00C1135E /* BirdIdentifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdIdentifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C39B08282BB24B00C1135E /* BirdIdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdIdentifierUITests.swift; sourceTree = "<group>"; };
+		84C39B0A282BB24B00C1135E /* BirdIdentifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdIdentifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84C39B1F282BB2FA00C1135E /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		84C39B20282BB2FA00C1135E /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		84C39B25282BB37B00C1135E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84C39B26282BB37B00C1135E /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
+		84C39B27282BB37B00C1135E /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
+		84C39B2B282BB38500C1135E /* BirdClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BirdClassifier.mlmodel; sourceTree = "<group>"; };
+		84C39B2D282BB3E200C1135E /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C39AE1282BB24900C1135E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39AF7282BB24B00C1135E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39B01282BB24B00C1135E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C39ADB282BB24900C1135E = {
+			isa = PBXGroup;
+			children = (
+				84C39AE6282BB24900C1135E /* BirdIdentifier */,
+				84C39AFD282BB24B00C1135E /* BirdIdentifierTests */,
+				84C39B07282BB24B00C1135E /* BirdIdentifierUITests */,
+				84C39AE5282BB24900C1135E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C39AE5282BB24900C1135E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C39AE4282BB24900C1135E /* BirdIdentifier.app */,
+				84C39AFA282BB24B00C1135E /* BirdIdentifierTests.xctest */,
+				84C39B04282BB24B00C1135E /* BirdIdentifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C39AE6282BB24900C1135E /* BirdIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B24282BB33B00C1135E /* ImagePredictor */,
+				84C39B23282BB30100C1135E /* MainView */,
+				84C39B1E282BB29E00C1135E /* Model */,
+				84C39B1D282BB29600C1135E /* Extensions */,
+				84C39AE7282BB24900C1135E /* AppDelegate.swift */,
+				84C39AE9282BB24900C1135E /* SceneDelegate.swift */,
+				84C39AEB282BB24900C1135E /* ViewController.swift */,
+				84C39AED282BB24900C1135E /* Main.storyboard */,
+				84C39AF0282BB24B00C1135E /* Assets.xcassets */,
+				84C39AF2282BB24B00C1135E /* LaunchScreen.storyboard */,
+				84C39AF5282BB24B00C1135E /* Info.plist */,
+			);
+			path = BirdIdentifier;
+			sourceTree = "<group>";
+		};
+		84C39AFD282BB24B00C1135E /* BirdIdentifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C39AFE282BB24B00C1135E /* BirdIdentifierTests.swift */,
+			);
+			path = BirdIdentifierTests;
+			sourceTree = "<group>";
+		};
+		84C39B07282BB24B00C1135E /* BirdIdentifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B08282BB24B00C1135E /* BirdIdentifierUITests.swift */,
+				84C39B0A282BB24B00C1135E /* BirdIdentifierUITestsLaunchTests.swift */,
+			);
+			path = BirdIdentifierUITests;
+			sourceTree = "<group>";
+		};
+		84C39B1D282BB29600C1135E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B1F282BB2FA00C1135E /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				84C39B20282BB2FA00C1135E /* VNClassificationObservation+confidenceString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84C39B1E282BB29E00C1135E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B2B282BB38500C1135E /* BirdClassifier.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C39B23282BB30100C1135E /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B25282BB37B00C1135E /* MainViewController.swift */,
+				84C39B27282BB37B00C1135E /* MainViewController+CameraPicker.swift */,
+				84C39B26282BB37B00C1135E /* MainViewController+PhotoPicker.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		84C39B24282BB33B00C1135E /* ImagePredictor */ = {
+			isa = PBXGroup;
+			children = (
+				84C39B2D282BB3E200C1135E /* ImagePredictor.swift */,
+			);
+			path = ImagePredictor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C39AE3282BB24900C1135E /* BirdIdentifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C39B0E282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifier" */;
+			buildPhases = (
+				84C39AE0282BB24900C1135E /* Sources */,
+				84C39AE1282BB24900C1135E /* Frameworks */,
+				84C39AE2282BB24900C1135E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdIdentifier;
+			productName = BirdIdentifier;
+			productReference = 84C39AE4282BB24900C1135E /* BirdIdentifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C39AF9282BB24B00C1135E /* BirdIdentifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C39B11282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifierTests" */;
+			buildPhases = (
+				84C39AF6282BB24B00C1135E /* Sources */,
+				84C39AF7282BB24B00C1135E /* Frameworks */,
+				84C39AF8282BB24B00C1135E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C39AFC282BB24B00C1135E /* PBXTargetDependency */,
+			);
+			name = BirdIdentifierTests;
+			productName = BirdIdentifierTests;
+			productReference = 84C39AFA282BB24B00C1135E /* BirdIdentifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84C39B03282BB24B00C1135E /* BirdIdentifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C39B14282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifierUITests" */;
+			buildPhases = (
+				84C39B00282BB24B00C1135E /* Sources */,
+				84C39B01282BB24B00C1135E /* Frameworks */,
+				84C39B02282BB24B00C1135E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C39B06282BB24B00C1135E /* PBXTargetDependency */,
+			);
+			name = BirdIdentifierUITests;
+			productName = BirdIdentifierUITests;
+			productReference = 84C39B04282BB24B00C1135E /* BirdIdentifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C39ADC282BB24900C1135E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					84C39AE3282BB24900C1135E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					84C39AF9282BB24B00C1135E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 84C39AE3282BB24900C1135E;
+					};
+					84C39B03282BB24B00C1135E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 84C39AE3282BB24900C1135E;
+					};
+				};
+			};
+			buildConfigurationList = 84C39ADF282BB24900C1135E /* Build configuration list for PBXProject "BirdIdentifier" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C39ADB282BB24900C1135E;
+			productRefGroup = 84C39AE5282BB24900C1135E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C39AE3282BB24900C1135E /* BirdIdentifier */,
+				84C39AF9282BB24B00C1135E /* BirdIdentifierTests */,
+				84C39B03282BB24B00C1135E /* BirdIdentifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C39AE2282BB24900C1135E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C39AF4282BB24B00C1135E /* LaunchScreen.storyboard in Resources */,
+				84C39AF1282BB24B00C1135E /* Assets.xcassets in Resources */,
+				84C39AEF282BB24900C1135E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39AF8282BB24B00C1135E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39B02282BB24B00C1135E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C39AE0282BB24900C1135E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C39B21282BB2FA00C1135E /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				84C39AEC282BB24900C1135E /* ViewController.swift in Sources */,
+				84C39AE8282BB24900C1135E /* AppDelegate.swift in Sources */,
+				84C39B28282BB37B00C1135E /* MainViewController.swift in Sources */,
+				84C39B2E282BB3E200C1135E /* ImagePredictor.swift in Sources */,
+				84C39B2C282BB38500C1135E /* BirdClassifier.mlmodel in Sources */,
+				84C39B29282BB37B00C1135E /* MainViewController+PhotoPicker.swift in Sources */,
+				84C39B22282BB2FA00C1135E /* VNClassificationObservation+confidenceString.swift in Sources */,
+				84C39B2A282BB37B00C1135E /* MainViewController+CameraPicker.swift in Sources */,
+				84C39AEA282BB24900C1135E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39AF6282BB24B00C1135E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C39AFF282BB24B00C1135E /* BirdIdentifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C39B00282BB24B00C1135E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C39B0B282BB24B00C1135E /* BirdIdentifierUITestsLaunchTests.swift in Sources */,
+				84C39B09282BB24B00C1135E /* BirdIdentifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C39AFC282BB24B00C1135E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C39AE3282BB24900C1135E /* BirdIdentifier */;
+			targetProxy = 84C39AFB282BB24B00C1135E /* PBXContainerItemProxy */;
+		};
+		84C39B06282BB24B00C1135E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C39AE3282BB24900C1135E /* BirdIdentifier */;
+			targetProxy = 84C39B05282BB24B00C1135E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C39AED282BB24900C1135E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C39AEE282BB24900C1135E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C39AF2282BB24B00C1135E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C39AF3282BB24B00C1135E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C39B0C282BB24B00C1135E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C39B0D282BB24B00C1135E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C39B0F282BB24B00C1135E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirdIdentifier/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C39B10282BB24B00C1135E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirdIdentifier/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84C39B12282BB24B00C1135E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdIdentifier.app/BirdIdentifier";
+			};
+			name = Debug;
+		};
+		84C39B13282BB24B00C1135E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdIdentifier.app/BirdIdentifier";
+			};
+			name = Release;
+		};
+		84C39B15282BB24B00C1135E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdIdentifier;
+			};
+			name = Debug;
+		};
+		84C39B16282BB24B00C1135E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LWG4W4425;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trupti.BirdIdentifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdIdentifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C39ADF282BB24900C1135E /* Build configuration list for PBXProject "BirdIdentifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C39B0C282BB24B00C1135E /* Debug */,
+				84C39B0D282BB24B00C1135E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C39B0E282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C39B0F282BB24B00C1135E /* Debug */,
+				84C39B10282BB24B00C1135E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C39B11282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C39B12282BB24B00C1135E /* Debug */,
+				84C39B13282BB24B00C1135E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C39B14282BB24B00C1135E /* Build configuration list for PBXNativeTarget "BirdIdentifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C39B15282BB24B00C1135E /* Debug */,
+				84C39B16282BB24B00C1135E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C39ADC282BB24900C1135E /* Project object */;
+}
