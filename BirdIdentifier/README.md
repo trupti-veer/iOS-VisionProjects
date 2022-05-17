@@ -20,7 +20,6 @@ BirdIdentifier App results:
 ![IMG_2566](https://user-images.githubusercontent.com/41720688/168795342-e6a5678d-2b93-452a-b1aa-92fa97e18d19.PNG)
 ![IMG_2558](https://user-images.githubusercontent.com/41720688/168795348-9ecd1fe4-0bb1-48b6-8313-a52b766287d4.PNG)
 ![IMG_2555](https://user-images.githubusercontent.com/41720688/168795351-cee4034a-2de5-4676-84bb-216faf730349.PNG)
-![IMG_2548](https://user-images.githubusercontent.com/41720688/168795355-d2178036-de06-464c-b6a0-80991e497405.PNG)
 ![IMG_2424](https://user-images.githubusercontent.com/41720688/168795356-0268d351-0c74-470d-9bcb-cb88574d912d.PNG)
 ![IMG_2538](https://user-images.githubusercontent.com/41720688/168795359-9e742179-7f0a-42a8-9739-5b05b749c8b4.PNG)
 ![IMG_2537](https://user-images.githubusercontent.com/41720688/168795366-01d61640-9599-4363-9c0b-c7aab96a10e7.PNG)
